@@ -5,7 +5,8 @@
 
 
 #### 软件架构
-pom引入pdfbox,thumbnailator文档处理jar包
+pom.xml文件
+引入pdfbox,thumbnailator文档处理jar包
 
 
 #### 使用说明
