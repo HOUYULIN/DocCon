@@ -180,7 +180,7 @@ public class pdf2md {
         }
         fos.close();
         pdf.close();
-        System.out.println("pdf转换解析结束！！----");
+        System.out.println("pdf转md转换解析结束！！----");
     }
 
 
