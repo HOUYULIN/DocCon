@@ -1,23 +1,33 @@
 # DocumentConversion
 
-#### 介绍
+# 介绍
+
 文档转换工具。
 
+## 实现功能：pdf转换md
 
-#### 软件架构
+## 存在问题：
+    1.图片和文本错位
+    2.无法处理代码块和表格等。
+## 转换D:\pdf\day1.pdf文件的效果：
+### 转换后的目录结构：
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/093958_d361d6d2_1012259.png "屏幕截图.png")
+### 转换后的md文档效果：
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/094142_46370529_1012259.png "屏幕截图.png")
+# 软件架构
 pom.xml文件
 引入pdfbox,thumbnailator文档处理jar包
 
 
-#### 使用说明
+# 使用说明
 
-1.  引入项目
+#### 1.  引入项目
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/093309_d80acfc5_1012259.png "屏幕截图.png")
-2.  刷新maven
+#### 2.  刷新maven
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/093239_62a5ddb9_1012259.png "屏幕截图.png")
-3.  pdf2md.java文件输入要转换pdf文件路径
+#### 3.  pdf2md.java文件输入要转换pdf文件路径
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/093438_ef46b033_1012259.png "屏幕截图.png")
-4.右键运行
+#### 4.右键运行
 
 
 
