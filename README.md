@@ -3,22 +3,31 @@
 # 1.介绍
 
 java文档转换工具。 
+
 目前已实现： pdf转md(pdf转markdown：能够将pdf格式的文件转换成markdown格式的文件，支持同步同时转换图片和文本。)；
 
 ## 1.1实现功能：pdf转换md
 
 ## 1.2存在问题：
     1.图片和文本错位
+
     2.无法处理代码块和表格等。
+
 ## 1.3转换D:\pdf\day1.pdf文件的效果：
+
 ### 1.3.1转换后的目录结构：
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/093958_d361d6d2_1012259.png "屏幕截图.png")
+
 ### 1.3.2转换后的md文档效果：
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0115/094142_46370529_1012259.png "屏幕截图.png")
 
 
 # 2.软件架构
+
 pom.xml文件
+
 引入pdfbox,thumbnailator文档处理jar包
 
 
